@@ -1,0 +1,5 @@
+print("minimum")
+minimum = min(input("nombre: "),input("nombre: "),input("nombre: "))
+print("maximum")
+maximum = max(input("nombre: "),input("nombre: "),input("nombre: "))
+print("la plus petite valeur est " + str(minimum) +" et la plus grande valeur est "+ str(maximum))

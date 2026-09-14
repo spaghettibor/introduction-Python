@@ -1,0 +1,2 @@
+moyenne = float(input("note sur 20 ")) + float(input("note sur 20 ")) + float(input("note sur 20 ")) + float(input("note sur 20 ")) + float(input("note sur 20 "))
+print("moyenne = " + str(moyenne/5) + " sur 20")
