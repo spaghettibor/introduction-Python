@@ -1,5 +1,6 @@
-liste = []
-print("bienvenue a ce programme pour calculer ta moyenne.\n Appuie a n'importe que moment sur 'q' pour arreter le programme")
+
+print("""bienvenue a ce programme pour calculer ta moyenne.
+Appuie a n'importe que moment sur 'q' pour arreter le programme""")
 nombre = input("combien de nottes tu vas mettre ?")
 if nombre.isnumeric():
     timer = int(nombre)
@@ -9,10 +10,13 @@ if nombre.isnumeric():
             break
         else:
             note = int(saisie)
-            liste.append(note)
             timer -= 1
             print(list)
 elif nombre == "q":
     print("ok finito")
 
-    
+
+print("""bienvenue a ce programme pour calculer ta moyenne.
+Appuie a n'importe que moment sur 'q' pour arreter le programme""")
+
+nombre 
